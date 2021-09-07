@@ -11,19 +11,18 @@ class Restaurant:
 
 #GETTERS Y SETTERS  - Get=Obtiene un valor, Set=Agrega un valor 
 
+def get_precio (self):
+    return self.__precio
 
+def set_precio(self, precio):
+    self.__precio= precio
 
-#Instanciar la clase
-restaurant = Restaurant('Pizzeria Mexico', 'Comida Italiana', 50)
-restaurant.__precio =80  #No es posible modificarlo, por ser PRIVATE__
-restaurant.mostrar_informacion()
+#Crear una clase hijo de Restaurant
 
-restaurant2 = Restaurant('Hamburguesas Python', 'Comida casual', 20)
-restaurant2.__precio=40
-restaurant2.mostrar_informacion()
+class Hotel(Restaurant):
+    def __init__(self, nombre, categoria, precio):
+        super().__init__(nombre, categoria, precio)
 
-
-
-
-
+hotel = Hotel('Hotel POO', '5 Estrellas', 200)
+hotel.mostrar_informacion()
 
