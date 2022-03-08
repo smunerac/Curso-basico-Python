@@ -1,0 +1,3 @@
+Nombre: Maria
+Telefono: 837987
+Categoria: cliente

@@ -1,0 +1,3 @@
+Nombre: Pedro
+Telefono: 47489
+Categoria: Amigo

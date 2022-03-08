@@ -1,0 +1,3 @@
+Nombre: Karem
+Telefono: 99999999
+Categoria: Amigos
